@@ -1,0 +1,78 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6; /* Light red background */
+    color: #660000; /* Dark red text */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    color: #990000; /* Medium dark red */
+    text-align: center;
+}
+
+/* Form styles */
+form {
+    background-color: #ffcccc; /* Very light red background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Label styles */
+label {
+    color: #cc0000; /* Red */
+    font-weight: bold;
+}
+
+/* Input field styles */
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #990000; /* Medium dark red border */
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+    background-color: #cc0000; /* Red */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #990000; /* Darker red on hover */
+}
+
+/* Link styles */
+a {
+    color: #cc0000; /* Red */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #660000; /* Dark red on hover */
+    text-decoration: underline;
+}
+
+/* Paragraph styles */
+p {
+    color: #660000; /* Dark red text */
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Center align the form and result message */
+form, .result {
+    text-align: center;
+}
